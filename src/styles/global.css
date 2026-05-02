@@ -73,6 +73,13 @@
   --bg-size: 200%;
 }
 
+/* Mejora el renderizado de fuentes */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
 :root.dark {
   --color-text: #fffefe;
   --color: 255, 254, 254;
@@ -205,6 +212,22 @@ mark {
 mark.dark {
   background-color: rgb(253, 190, 122);
   color: #fffefe;
+}
+
+/* Evita selección accidental en la Toolbar */
+button,
+.toolbar-icon {
+  user-select: none;
+}
+
+/* Ocultar scrollbar en el contenedor principal si es necesario */
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 .color-pattern {
