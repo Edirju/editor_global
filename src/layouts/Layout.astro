@@ -1,0 +1,26 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body class="relative min-h-dvh transition-colors duration-500 text-[rgb(var(--color))]">
+    <!-- <div class="bg-pattern"></div> -->
+    <!-- <div class="color-pattern"></div> -->
+
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
