@@ -6,7 +6,7 @@ import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tu-proyecto-obsidian.vercel.app",
+  site: "https://editor-global-markdown.vercel.app/",
   vite: {
     plugins: [tailwindcss()],
   },
