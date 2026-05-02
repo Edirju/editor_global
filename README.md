@@ -1,18 +1,14 @@
 # Editor Web Clone | Professional Markdown Editor
 
 ![alt text](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
-
 ![alt text](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
 ![alt text](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-
 ![alt text](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
 ![alt text](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 Un editor de texto Markdown de alto rendimiento inspirado en la estética y funcionalidad de Obsidian. Este proyecto demuestra la implementación de arquitecturas modernas de frontend, gestión de estado compleja y persistencia de datos local-first.
 
-🚀 **[Ver Demo en Vivo](https://tu-proyecto.vercel.app)**
+🚀 **[Ver Demo en Vivo](https://editor-global-markdown.vercel.app/)**
 
 ## 🌟 Características Principales
 
